@@ -4,7 +4,7 @@
   "name": "NERDS Deck",
   "upstream_name": "DeckCraft",
   "keep": [
-    "crates/engine/src/cmd/insert.rs: let theme_now",
-    "crates/ui-egui/src/dialogs.rs: .unwrap_or_else(|| \"DeckCraft\".into())"
+    "*: let theme_now = st.doc.masters",
+    "*: =.unwrap_or_else(|| \"DeckCraft\".into())"
   ]
 }
