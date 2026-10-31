@@ -1,0 +1,83 @@
+NERDS names: 57 changes, 24 kept, 0 warnings
+
+rust  apps/deckcraft-cli/src/help.rs:129  'run a command in the DeckCraft app started with --control' -> 'run a command in the NERDS Deck app started with --control'
+rust  apps/deckcraft-cli/src/help.rs:130  'Sends one request to the DeckCraft app started with `deckcraft --control PORT` (port 7979 ' -> 'Sends one request to the NERDS Deck app started with `deckcraft --control PORT` (port 7979'
+rust  apps/deckcraft-cli/src/help.rs:141  'Runs a Model Context Protocol server on stdin and stdout. It works on its own presentation' -> 'Runs a Model Context Protocol server on stdin and stdout. It works on its own presentation'
+rust  apps/deckcraft-cli/src/help.rs:163  'print the DeckCraft community and project links' -> 'print the NERDS Deck community and project links'
+rust  apps/deckcraft-cli/src/help.rs:164  'Prints the DeckCraft community and project links.' -> 'Prints the NERDS Deck community and project links.'
+rust  apps/deckcraft-cli/src/help.rs:183  'deckcraft-cli works on DeckCraft presentations (.deckcraft, .pptx) without a window.\r\n\r\n{}' -> 'deckcraft-cli works on NERDS Deck presentations (.deckcraft, .pptx) without a window.\r\n\r\n{'
+rust  apps/deckcraft-cli/src/main.rs:674  'no DeckCraft app on port {port} ({e}); start it with `deckcraft --control {port}`' -> 'no NERDS Deck app on port {port} ({e}); start it with `deckcraft --control {port}`'
+rust  apps/deckcraft/build.rs:17  'DeckCraft' -> 'NERDS Deck'
+rust  apps/deckcraft/build.rs:18  'DeckCraft presentations' -> 'NERDS Deck presentations'
+rust  apps/deckcraft/build.rs:19  'Learning Machines LLC' -> 'NERDS Craft'
+kept  apps/deckcraft/src/main.rs:72  std::env::var_os("APPDATA").map(|a| std::path::PathBuf::from(a).join("DeckCraft"))
+kept  apps/deckcraft/src/main.rs:118  .add_filter("DeckCraft", &["deckcraft"])
+rust  apps/deckcraft/src/main.rs:192  'DeckCraft update helper failed: {e}' -> 'NERDS Deck update helper failed: {e}'
+rust  apps/deckcraft/src/main.rs:209  'DeckCraft {} ({} {})' -> 'NERDS Deck {} ({} {})'
+rust  apps/deckcraft/src/main.rs:224  'DeckCraft' -> 'NERDS Deck'
+rust  apps/deckcraft/src/main.rs:244  'DeckCraft needs a graphical session: neither DISPLAY nor WAYLAND_DISPLAY is set.' -> 'NERDS Deck needs a graphical session: neither DISPLAY nor WAYLAND_DISPLAY is set.'
+kept  apps/deckcraft/src/main.rs:265  "DeckCraft",
+rust  crates/engine/src/cmd/file.rs:167  "{name} is password-protected. DeckCraft can't open password-protected presentations yet." -> "{name} is password-protected. NERDS Deck can't open password-protected presentations yet."
+rust  crates/engine/src/cmd/file.rs:185  '{name}: not a presentation DeckCraft can read' -> '{name}: not a presentation NERDS Deck can read'
+rust  crates/engine/src/cmd/format/painter.rs:135  'not a font DeckCraft can read (or already added)' -> 'not a font NERDS Deck can read (or already added)'
+kept  crates/engine/src/cmd/insert/album.rs:637  'DeckCraft'  (nerds.json keep)
+kept  crates/engine/src/recovery.rs:32  return std::env::var_os("APPDATA").map(|a| PathBuf::from(a).join("DeckCraft").join("Recovery"));
+kept  crates/engine/src/sample.rs:18  run(s, "file.new", json!({"theme": "DeckCraft"}))?;
+rust  crates/engine/src/sample.rs:24  'Welcome everyone. This deck was made in DeckCraft.' -> 'Welcome everyone. This deck was made in NERDS Deck.'
+rust  crates/engine/src/sample.rs:117  'Made with DeckCraft — free and open source' -> 'Made with NERDS Deck — free and open source'
+kept  crates/engine/src/spell.rs:508  out.extend(std::env::var_os("APPDATA").map(|a| PathBuf::from(a).join("DeckCraft").join("Dictionaries")));
+kept  crates/engine/src/spell.rs:610  std::env::var_os("APPDATA").map(|a| PathBuf::from(a).join("DeckCraft").join("Dictionaries"))
+rust  crates/format/src/chart_parts.rs:53  'embedded media and chart parts are larger than DeckCraft can open' -> 'embedded media and chart parts are larger than NERDS Deck can open'
+rust  crates/format/src/chart_parts.rs:65  'inline chart part is larger than DeckCraft can open' -> 'inline chart part is larger than NERDS Deck can open'
+rust  crates/format/src/lib.rs:42  'not a DeckCraft file: {0}' -> 'not a NERDS Deck file: {0}'
+rust  crates/format/src/lib.rs:73  'DeckCraft {}' -> 'NERDS Deck {}'
+rust  crates/format/src/lib.rs:165  'embedded media is larger than DeckCraft can open' -> 'embedded media is larger than NERDS Deck can open'
+rust  crates/mcp/src/backend.rs:130  'DeckCraft app at {} is not reachable: {e}' -> 'NERDS Deck app at {} is not reachable: {e}'
+rust  crates/mcp/src/backend.rs:136  'lost the reply from the DeckCraft app at {} ({e}); the command may or may not have run, ch' -> 'lost the reply from the NERDS Deck app at {} ({e}); the command may or may not have run, c'
+rust  crates/mcp/src/backend.rs:147  'connected to the DeckCraft app at {}' -> 'connected to the NERDS Deck app at {}'
+rust  crates/mcp/src/server.rs:23  'DeckCraft is a presentation app (a PowerPoint clone). Coordinates are points on the \\\r\ncur' -> 'NERDS Deck is a presentation app (a PowerPoint clone). Coordinates are points on the \\\r\ncu'
+kept  crates/mcp/src/server.rs:148  "serverInfo": {"name": "deckcraft", "title": "DeckCraft", "version": env!("CARGO_PKG_VERSION"), "websiteUrl": deckcraft_engine::links::APP_P
+rust  crates/mcp/src/tools.rs:97  'Start a new presentation (one title slide). Optional theme: DeckCraft, Harbor, Ember, Mead' -> 'Start a new presentation (one title slide). Optional theme: NERDS Deck, Harbor, Ember, Mea'
+rust  crates/mcp/src/tools.rs:282  'Screenshot of the whole DeckCraft window (UI included).{APP_ONLY}' -> 'Screenshot of the whole NERDS Deck window (UI included).{APP_ONLY}'
+kept  crates/model/src/theme.rs:71  name: "DeckCraft".into(),
+kept  crates/model/src/theme.rs:72  colors: ColorScheme { name: "DeckCraft".into(), colors: [Rgba::BLACK; 12] },
+kept  crates/model/src/theme.rs:121  name: "DeckCraft".into(),
+kept  crates/model/src/theme.rs:192  "DeckCraft",
+kept  crates/model/src/theme.rs:194  "DeckCraft",
+kept  crates/pdf/src/lib.rs:171  creator: "DeckCraft".into(),
+kept  crates/pdf/src/lib.rs:172  producer: "DeckCraft".into(),
+rust  crates/pptx/src/tables.rs:229  'DeckCraft {n}' -> 'NERDS Deck {n}'
+kept  crates/pptx/src/write.rs:1269  w.elt("Application", "DeckCraft");
+rust  crates/ui-egui/src/app/files.rs:66  "{name}: DeckCraft can't open this kind of file" -> "{name}: NERDS Deck can't open this kind of file"
+rust  crates/ui-egui/src/app/files.rs:142  "DeckCraft can't export “{other}”" -> "NERDS Deck can't export “{other}”"
+kept  crates/ui-egui/src/backstage/files.rs:58  let th = deckcraft_model::theme::builtin_themes().into_iter().find(|t| t.name == "DeckCraft");
+rust  crates/ui-egui/src/backstage/files.rs:213  'DeckCraft' -> 'NERDS Deck'
+rust  crates/ui-egui/src/backstage/info.rs:7  'DeckCraft Presentation (*.deckcraft)' -> 'NERDS Deck Presentation (*.deckcraft)'
+rust  crates/ui-egui/src/backstage/info.rs:7  "DeckCraft's own format: everything is kept" -> "NERDS Deck's own format: everything is kept"
+rust  crates/ui-egui/src/backstage/info.rs:215  'DeckCraft has no accounts: there is nothing to sign in to, and your presentations stay on ' -> 'NERDS Deck has no accounts: there is nothing to sign in to, and your presentations stay on'
+rust  crates/ui-egui/src/backstage/info.rs:223  'DeckCraft' -> 'NERDS Deck'
+rust  crates/ui-egui/src/backstage/info.rs:231  'About DeckCraft' -> 'About NERDS Deck'
+rust  crates/ui-egui/src/backstage/info.rs:232  'About DeckCraft' -> 'About NERDS Deck'
+rust  crates/ui-egui/src/backstage/print.rs:87  'DeckCraft prints through a PDF: it opens in your PDF viewer, where you choose the printer.' -> 'NERDS Deck prints through a PDF: it opens in your PDF viewer, where you choose the printer'
+rust  crates/ui-egui/src/backstage/print.rs:89  'DeckCraft prints through a PDF: it downloads, ready to print from your browser or PDF view' -> 'NERDS Deck prints through a PDF: it downloads, ready to print from your browser or PDF vie'
+rust  crates/ui-egui/src/dialogs.rs:51  'About DeckCraft' -> 'About NERDS Deck'
+kept  crates/ui-egui/src/dialogs.rs:73  "quit" => "DeckCraft",
+kept  crates/ui-egui/src/dialogs.rs:76  _ => "DeckCraft",
+rust  crates/ui-egui/src/dialogs/about.rs:23  'DeckCraft' -> 'NERDS Deck'
+rust  crates/ui-egui/src/dialogs/find.rs:52  "DeckCraft can't find “{text}”." -> "NERDS Deck can't find “{text}”."
+rust  crates/ui-egui/src/dialogs/find.rs:67  "DeckCraft can't find “{text}”." -> "NERDS Deck can't find “{text}”."
+kept  crates/ui-egui/src/dialogs/photo_album.rs:88  const ALBUM_THEMES: &[&str] = &["DeckCraft", "Harbor", "Ember", "Meadow", "Nocturne", "Paper", "Coral Reef", "Slate"];
+kept  crates/ui-egui/src/dialogs/photo_album.rs:96  'DeckCraft'  (nerds.json keep)
+kept  crates/ui-egui/src/dialogs/photo_album.rs:281  album_choice(ui, d, "album_theme", "Album theme", "theme", "DeckCraft", &ALBUM_THEMES.iter().map(|n| (*n, *n)).collect::<Vec<_>>());
+kept  crates/ui-egui/src/dialogs/photo_album.rs:298  let theme = d.get("theme", "DeckCraft");
+rust  crates/ui-egui/src/dialogs/updates_ui.rs:44  'DeckCraft {VERSION} is up to date.' -> 'NERDS Deck {VERSION} is up to date.'
+rust  crates/ui-egui/src/lib.rs:139  'About DeckCraft' -> 'About NERDS Deck'
+rust  crates/ui-egui/src/menus.rs:310  'About DeckCraft' -> 'About NERDS Deck'
+rust  crates/ui-egui/src/ribbon/title_bar.rs:58  'DeckCraft' -> 'NERDS Deck'
+rust  crates/ui-egui/src/show/presenter.rs:151  'Presenter View — DeckCraft' -> 'Presenter View — NERDS Deck'
+win   packaging/windows/deckcraft.wxs  (9 lines)
+win   packaging/windows/install-policy.json  (81 lines)
+win   packaging/windows/package.ps1  (1 lines)
+mac   packaging/macos/Info.plist.in  (4 lines)
+mac   packaging/macos/dmg/generate.py  (2 lines)
+mac   packaging/macos/package.sh  (5 lines)
