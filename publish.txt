@@ -1,0 +1,9 @@
+total 384332
+-rw-r--r-- 1 runner runner       417 Nov  7 06:39 SHA256SUMS.txt
+-rw-r--r-- 1 runner runner 112401688 Nov  7 06:39 deckcraft-0.16.0-macos-universal.dmg
+-rw-r--r-- 1 runner runner 104191814 Nov  7 06:39 deckcraft-0.16.0-windows-x64-portable.zip
+-rw-r--r-- 1 runner runner  82771968 Nov  7 06:39 deckcraft-0.16.0-windows-x64.msi
+-rw-r--r-- 1 runner runner  94181908 Nov  7 06:39 deckcraft-cli-0.16.0-macos-universal.zip
+10420 /home/runner/work/_temp/notes.md
+https://github.com/nerds-coach/nerds-deck/releases/tag/untagged-ea2d0b27b9ced2c0ec2f
+https://github.com/nerds-coach/nerds-deck/releases/tag/v0.16.0
