@@ -1,0 +1,80 @@
+::warning::macOS: ad-hoc signing (no MACOS_SIGN_IDENTITY); artifacts are not notarized
+==> DeckCraft 0.18.1 for macOS (universal), identity: -, notarize: 0
+[1m[92m    Updating[0m git repository `https://github.com/storytold/craft-libs`
+[1m[92m    Updating[0m crates.io index
+[1m[92m    Updating[0m git repository `https://github.com/storytold/craft-libs`
+[1m[33mwarning[0m: patch `egui_demo_lib v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[33mwarning[0m: patch `egui_inspection v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[33mwarning[0m: patch `egui_system_font_provider v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[96mhelp[0m: Check that the patched package version and available features are compatible
+      with the dependency requirements. If the patch has a different version from
+      what is locked in the Cargo.lock file, run `cargo update` to use the new
+      version. This may also occur with an optional dependency that is not enabled.
+[1m[92m   Compiling[0m deckcraft-fonts v0.18.1 (/Users/runner/work/nerds-deck/nerds-deck/crates/fonts)
+[1m[92m   Compiling[0m deckcraft-geom v0.18.1 (/Users/runner/work/nerds-deck/nerds-deck/crates/geom)
+[1m[92m   Compiling[0m craft-media v0.1.0 (https://github.com/storytold/craft-libs?rev=75895c0321d8cb6e175a42466cba050352b117c5#75895c03)
+[1m[92m   Compiling[0m deckcraft-color v0.18.1 (/Users/runner/work/nerds-deck/nerds-deck/crates/color)
+[1m[92m   Compiling[0m rustix v1.1.5
+[1m[92m   Compiling[0m deckcraft-model v0.18.1 (/Users/runner/work/nerds-deck/nerds-deck/crates/model)
+[1m[92m   Compiling[0m deckcraft-bitstream v0.18.1 (/Users/runner/work/nerds-deck/nerds-deck/crates/bitstream)
+[1m[92m   Compiling[0m deckcraft-text v0.18.1 (/Users/runner/work/nerds-deck/nerds-deck/crates/text)
+[1m[92m   Compiling[0m krilla v0.8.2 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+[1m[92m   Compiling[0m deckcraft-anim v0.18.1 (/Users/runner/work/nerds-deck/nerds-deck/crates/anim)
+[1m[92m   Compiling[0m deckcraft-metafile v0.18.1 (/Users/runner/work/nerds-deck/nerds-deck/crates/metafile)
+[1m[92m   Compiling[0m deckcraft-render v0.18.1 (/Users/runner/work/nerds-deck/nerds-deck/crates/render)
+[1m[92m   Compiling[0m craft-pdf v0.1.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+[1m[92m   Compiling[0m deckcraft-ui-egui v0.18.1 (/Users/runner/work/nerds-deck/nerds-deck/crates/ui-egui)
+[1m[92m   Compiling[0m deckcraft-h264 v0.18.1 (/Users/runner/work/nerds-deck/nerds-deck/crates/h264)
+[1m[92m   Compiling[0m deckcraft-av1 v0.18.1 (/Users/runner/work/nerds-deck/nerds-deck/crates/av1)
+[1m[92m   Compiling[0m deckcraft-vp9 v0.18.1 (/Users/runner/work/nerds-deck/nerds-deck/crates/vp9)
+[1m[92m   Compiling[0m deckcraft-hevc v0.18.1 (/Users/runner/work/nerds-deck/nerds-deck/crates/hevc)
+[1m[92m   Compiling[0m craft-audio v0.1.0 (https://github.com/storytold/craft-libs?rev=75895c0321d8cb6e175a42466cba050352b117c5#75895c03)
+[1m[92m   Compiling[0m deckcraft-pptx v0.18.1 (/Users/runner/work/nerds-deck/nerds-deck/crates/pptx)
+[1m[92m   Compiling[0m deckcraft-media v0.18.1 (/Users/runner/work/nerds-deck/nerds-deck/crates/media)
+[1m[92m   Compiling[0m deckcraft-pdf v0.18.1 (/Users/runner/work/nerds-deck/nerds-deck/crates/pdf)
+[1m[92m   Compiling[0m deckcraft-format v0.18.1 (/Users/runner/work/nerds-deck/nerds-deck/crates/format)
+[1m[92m   Compiling[0m deckcraft-engine v0.18.1 (/Users/runner/work/nerds-deck/nerds-deck/crates/engine)
+[1m[92m   Compiling[0m deckcraft v0.18.1 (/Users/runner/work/nerds-deck/nerds-deck/apps/deckcraft)
+[1m[92m   Compiling[0m tempfile v3.27.0
+[1m[92m   Compiling[0m craft-i18n v0.1.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+[1m[92m   Compiling[0m craft-fonts-build v0.1.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+[1m[92m   Compiling[0m craft-ui v0.1.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+[1m[92m   Compiling[0m craft-update v0.1.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+[1m[92m   Compiling[0m deckcraft-mcp v0.18.1 (/Users/runner/work/nerds-deck/nerds-deck/crates/mcp)
+[1m[92m   Compiling[0m deckcraft-cli v0.18.1 (/Users/runner/work/nerds-deck/nerds-deck/apps/deckcraft-cli)
+[1m[92m    Finished[0m `release` profile [optimized] target(s) in 16m 44s
+Architectures in the fat file: /Users/runner/work/nerds-deck/nerds-deck/target/macos-package/bin/deckcraft are: x86_64 arm64 
+Architectures in the fat file: /Users/runner/work/nerds-deck/nerds-deck/target/macos-package/bin/deckcraft-cli are: x86_64 arm64 
+==> assembling /Users/runner/work/nerds-deck/nerds-deck/target/macos-package/NERDS Deck.app
+/Users/runner/work/nerds-deck/nerds-deck/target/macos-package/NERDS Deck.app/Contents/Info.plist: OK
+/Users/runner/work/nerds-deck/nerds-deck/target/macos-package/NERDS Deck.app/Contents/MacOS/DeckCraft: replacing existing signature
+/Users/runner/work/nerds-deck/nerds-deck/target/macos-package/NERDS Deck.app: replacing existing signature
+/Users/runner/work/nerds-deck/nerds-deck/target/macos-package/NERDS Deck.app: valid on disk
+/Users/runner/work/nerds-deck/nerds-deck/target/macos-package/NERDS Deck.app: satisfies its Designated Requirement
+==> building /Users/runner/work/nerds-deck/nerds-deck/dist/release/deckcraft-0.18.1-macos-universal.dmg
+Creating hybrid image...
+
+Preparing imaging engine…
+Reading Driver Descriptor Map (DDM : 0)…
+   (CRC32 $7A214A26: Driver Descriptor Map (DDM : 0))
+Reading Apple (Apple_partition_map : 1)…
+   (CRC32 $AD0C59E6: Apple (Apple_partition_map : 1))
+Reading DiscRecording 9.0.3d5 (Apple_HFS : 2)…
+   (CRC32 $762B04B6: DiscRecording 9.0.3d5 (Apple_HFS : 2))
+Adding resources…
+Elapsed Time:  5.455s
+File size: 112773715 bytes, Checksum: CRC32 $CC16E538
+Sectors processed: 465996, 465993 compressed
+Speed: 41.7MB/s
+Savings: 52.7%
+created: /Users/runner/work/nerds-deck/nerds-deck/dist/release/deckcraft-0.18.1-macos-universal.dmg
+/Users/runner/work/nerds-deck/nerds-deck/dist/release/deckcraft-0.18.1-macos-universal.dmg: valid on disk
+/Users/runner/work/nerds-deck/nerds-deck/dist/release/deckcraft-0.18.1-macos-universal.dmg: satisfies its Designated Requirement
+==> building /Users/runner/work/nerds-deck/nerds-deck/dist/release/deckcraft-cli-0.18.1-macos-universal.zip
+/Users/runner/work/nerds-deck/nerds-deck/target/macos-package/deckcraft-cli-0.18.1-macos-universal/deckcraft-cli: replacing existing signature
+/Users/runner/work/nerds-deck/nerds-deck/target/macos-package/deckcraft-cli-0.18.1-macos-universal/deckcraft-cli: valid on disk
+/Users/runner/work/nerds-deck/nerds-deck/target/macos-package/deckcraft-cli-0.18.1-macos-universal/deckcraft-cli: satisfies its Designated Requirement
+deckcraft-cli 0.18.1
+==> done
+-rw-r--r--@ 1 runner  staff   108M Nov 12 07:30 /Users/runner/work/nerds-deck/nerds-deck/dist/release/deckcraft-0.18.1-macos-universal.dmg
+-rw-r--r--  1 runner  staff    90M Nov 12 07:30 /Users/runner/work/nerds-deck/nerds-deck/dist/release/deckcraft-cli-0.18.1-macos-universal.zip
